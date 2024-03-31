@@ -3,6 +3,7 @@ import logging
 import sys
 from copy import deepcopy
 
+from models.SPDConv import SPDConv
 sys.path.append('./')  # to run '$ python *.py' files in subdirectories
 logger = logging.getLogger(__name__)
 import torch
